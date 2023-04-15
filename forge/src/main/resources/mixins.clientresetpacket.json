@@ -6,9 +6,9 @@
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinFMLHandshakeHandler",
+    "MixinConnection",
+    "MixinHandshakeHandler",
     "MixinNetworkFilters",
-    "MixinNetworkManager",
     "VanillaPacketFilterAccessor"
   ],
   "client": []
